@@ -5,7 +5,7 @@ class CashRegister
     @discount = discount
   end
   
-  def total(total)
+  def total.self
     @@total
   end
   
