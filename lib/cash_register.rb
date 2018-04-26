@@ -15,5 +15,6 @@ class CashRegister
     @title = title
     @price = price
     @total += price
+    @quantity = quantity
   end
 end
